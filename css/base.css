@@ -1,0 +1,341 @@
+a:hover{
+	text-decoration: none;
+}
+.navbar{
+	padding-top:20px ;
+	padding-bottom:20px;
+	font-size:16px;
+}
+body{
+	padding-top: 90px;
+}
+.navbar-default{
+	border: none;
+}
+
+.navbar-brand{
+	padding: 0px;
+
+}
+
+#dh a{
+	padding-left:30px;
+}
+
+#dh a:hover{
+	color:red;
+}
+.navbar-text{
+	font-size:12px;
+	color:#0F0F0F;
+}
+.navbar-text a{
+	color:#777;
+}
+
+.navbar-text a:hover{
+	color:green;
+	text-decoration: none;
+}
+
+.carousel-indicators .active{
+	background:red;
+}
+
+.wz{
+	margin-top:60px;
+}
+
+.dbt{
+	font-size:40px;
+}
+
+.ad{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.ad,.bt2{
+	color:#666;
+}
+
+.ad:before,.ad:after{
+	background: #cdcdcd no-repeat;
+	content: " ";
+	height: 1px;
+	display: inline-block;
+	width: 10%;
+	vertical-align:middle ;
+}
+
+/*services*/
+
+.services{
+	margin-top:50px;
+	text-align:center;
+	color:#666;
+}
+
+.services .s1{
+	padding-top:15px;
+	font-size:26px;
+}
+
+.services .s2:before,.services .s2:after,.caseTitle p:before,.caseTitle p:after{
+	content:"";
+	background: #cdcdcd no-repeat;
+	height: 1px;
+	display: inline-block;
+	width:8%;
+	vertical-align: middle;
+}
+
+/*case*/
+
+
+.caseTitle{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+/*footer*/
+
+.footer{
+	margin-top: 40px;
+	text-align:center ;
+}
+
+.footer dt{
+	padding-bottom:15px;
+}
+
+.tubiao{
+	padding-top: 30px;
+}
+
+.tubiao a{
+	text-decoration:none;
+}
+
+.tubiao i{
+	font-size:60px;
+}
+
+.tubiao .icon-twitter{
+	color:#00aeef;
+}
+
+.tubiao .icon-xinlang{
+	color:#f40906;
+}
+
+.tubiao .icon-weixin{
+	color:#2f9833;
+}
+
+.tubiao .icon-facebook{
+	color:#3b5b98;
+}
+
+.footer2{
+	margin-top:50px;
+}
+.footer3{
+	line-height: 35px;
+}
+
+.footer3 a{
+	color:#666;
+}
+.footer3{
+	color:#666;
+}
+
+/*list*/
+
+/*banner*/
+
+.listBanner .col-lg-12{
+	padding: 0px;
+}
+
+/*listContent*/
+.listLeft{
+	padding-right:50px ;
+}
+.listContent{
+	margin-top: 40px;
+}
+.listLeft h3{
+	margin-top:0px;
+	font-weight: bolder;
+}
+
+.listDes{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.listList{
+	margin-bottom: 40px;
+}
+
+.listPage{
+	text-align: center;
+}
+
+.pagination > li > a, .pagination > li > span{
+	color:#666;
+}
+
+/*listRight*/
+
+
+.our{
+	text-align: center;
+	font-size:16px;
+}
+.our a{
+	border-left:0px;
+	border-right:0px;
+}
+
+.ourTitle{
+	font-size:16px;
+	font-weight:bolder;
+	background: #ededed ;
+	border-top:0px ;
+	border-left:0px;
+	border-right:0px;
+}
+
+/*article*/
+.articleTitle{
+	text-align: center;
+	font-size:16px;
+	font-weight:bolder;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	background: #ededed ;
+	border-bottom:1px solid #ddd ;
+}
+
+.articleList h4{
+	color:#080808;
+	font-size:15px;
+	font-weight:bolder;
+	padding-bottom:10px;
+}
+
+/*内容页*/
+
+
+.breadcrumb{
+	padding-left:0px ;
+}
+
+.content{
+	padding-top: 30px;
+}
+
+.ctitle{
+	text-align: center;
+}
+.ctitle h2{
+	font-weight:bolder;
+}
+
+.ctitle p{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color:#666;
+}
+
+.ccontent{
+	line-height: 30px;
+	color:#666;
+}
+
+@media only screen and (max-width:768px ) {
+	.navbar{
+		padding-top:0px;
+		padding-bottom: 0px;
+		text-align: center;
+	}
+	body{
+		padding-top: 50px;
+	}
+	.logo{
+		height:35px;
+	}
+	
+	.navbar-brand{
+		padding-top:5px;
+		padding-left:10px;
+	}
+	
+	.dbt{
+		font-size:20px;
+	}
+	.tubiao i{
+		font-size: 30px;
+	}
+	
+	.tubiao{
+		padding-top:0px ;
+	}
+	
+	.footer2{
+		margin-top:0px;
+	}
+	.logo2{
+		height:40px;
+	}
+	
+	/*list*/
+	.listList img{
+		text-align: center;
+	}
+	
+	.listLeft{
+		padding-right: 15px;
+	}
+	
+	.listList h3{
+		margin-top: 15px;
+		text-align: center;
+	}
+	
+	.xsdh{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	
+	.xsdh a{
+		color:#fff;
+	}
+	
+	.xsdh button{
+		margin-right:10px;
+		margin-bottom: 10px;
+	}
+	
+	.article ul{
+		padding-left:18%;	
+	}
+	
+	/*content*/
+	.ctitle h2{
+		font-size:18px;
+	}
+	
+	.content{
+	padding-top: 0px;
+}
+
+.breadcrumb{
+	text-align: center;
+}
+
+
+}
